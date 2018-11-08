@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <User>
+    <uid>1851318572</uid>
+    <username>Test</username>
+    <password>test</password>
+  </User>
+  <User>
+    <uid>1040131015</uid>
+    <username>Test1</username>
+    <password>test</password>
+  </User>
+</root>

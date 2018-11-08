@@ -5,6 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PetShop"
         mc:Ignorable="d"
-        Title="Login" Height="400" Width="400" Background="DodgerBlue">
-    <Frame Name="Main" />
+        Title="Login" Height="462.541" Width="582.41" Background="DodgerBlue">
+    <Frame x:Name="frame" Content="Frame" HorizontalAlignment="Left" Height="383" Margin="31,10,0,0" VerticalAlignment="Top" Width="500" NavigationUIVisibility="Hidden"/>
 </Window>

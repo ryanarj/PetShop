@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-c:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\
 PetShop
 none
 false
 DEBUG;TRACE
-c:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\App.xaml
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\App.xaml
 41061587714
 
 121270636546
 13738642453
 loginPage.xaml;loginScreen.xaml;MainWindow.xaml;registerPage.xaml;
 
-False
+True
 

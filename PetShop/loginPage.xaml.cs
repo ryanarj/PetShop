@@ -16,7 +16,7 @@ namespace PetShop
 
         private void registerBtn_Click(object sender, RoutedEventArgs e)
         {
-            Main.Content = new registerPage();
+            this.NavigationService.Navigate(new registerPage());
 
         }
     }

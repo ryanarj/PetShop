@@ -18,6 +18,6 @@
                 <Button Name="loginBtn" Content="Login" Margin="60 10" />
                 <Button Name="registerBtn" Click="registerBtn_Click" Content="Register" Margin="60 10" />
             </StackPanel>
-            <Frame Name="Main" />
+            <Frame Name="Main" Width="542" Height="423" Margin="-153,-82,-129,-81" />
         </Grid>
 </Page>

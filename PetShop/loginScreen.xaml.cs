@@ -22,7 +22,7 @@ namespace PetShop
         public loginScreen()
         {
             InitializeComponent();
-            Main.Content = new loginPage();
+            frame.NavigationService.Navigate(new loginPage());
         }
     }
 }
