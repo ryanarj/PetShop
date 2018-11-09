@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace PetShop
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for ShoppingPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ShoppingPage : Page
     {
-        public MainWindow()
+        public ShoppingPage()
         {
             InitializeComponent();
         }
