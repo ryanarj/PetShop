@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:PetShop"
       mc:Ignorable="d" 
       Title="Login" Height="525" Width="582.41">
-    <Grid Background="Beige" Margin="20">
+    <Grid Background="White" Margin="20">
         <StackPanel>
             <Label Content="Login" Foreground="DodgerBlue" FontSize="25" HorizontalAlignment="Center"/>
             <Separator></Separator>

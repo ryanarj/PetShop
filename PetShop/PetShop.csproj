@@ -61,6 +61,12 @@
     <Compile Include="registerPage.xaml.cs">
       <DependentUpon>registerPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="shopperScreen.xaml.cs">
+      <DependentUpon>shopperScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingPage.xaml.cs">
+      <DependentUpon>ShoppingPage.xaml</DependentUpon>
+    </Compile>
     <Page Include="loginPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -69,10 +75,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -80,11 +82,15 @@
     <Compile Include="loginScreen.xaml.cs">
       <DependentUpon>loginScreen.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
     <Page Include="registerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="shopperScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ShoppingPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -118,6 +124,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Users.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cat.png" />
+    <Resource Include="elephant.png" />
+    <Resource Include="panther.png" />
+    <Resource Include="pup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pets.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

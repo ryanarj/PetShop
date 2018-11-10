@@ -22,6 +22,7 @@ namespace PetShop
         public shopperScreen()
         {
             InitializeComponent();
+            frame.NavigationService.Navigate(new ShoppingPage());
         }
     }
 }

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <Pet>
+    <petName>Cat</petName>
+    <amount>1</amount>
+    <price>10.00</price>
+  </Pet>
+  <Pet>
+    <petName>Elephant</petName>
+    <amount>1</amount>
+    <price>10.00</price>
+  </Pet>
+  <Pet>
+    <petName>Panther</petName>
+    <amount>1</amount>
+    <price>10.00</price>
+  </Pet>
+  <Pet>
+    <petName>Puppy</petName>
+    <amount>1</amount>
+    <price>10.00</price>
+  </Pet>
+</root>

@@ -5,10 +5,32 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:PetShop"
       mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="300"
-      Title="ShoppingPage">
+      d:DesignHeight="300"
+      Title="ShoppingPage" Width="574.593">
 
-    <Grid>
-        
+    <Grid Background="White" HorizontalAlignment="Left" Height="206" Margin="44,43,0,0" VerticalAlignment="Top" Width="480">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="56*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Image Height="70" Name="catImage" HorizontalAlignment="Left" Grid.Row="0" Grid.Column="0" Margin="0,0,0,49"  Source="cat.png"/>
+        <Image Height="70" Name="elephantImage" HorizontalAlignment="Left" Grid.Row="0" Grid.Column="1" Margin="10,0,0,49"  Source="elephant.png"/>
+        <Image Height="70" Name="pantherImage" HorizontalAlignment="Left" Grid.Row="0" Grid.Column="1" Margin="120,0,-112,49" Source="panther.png"/>
+        <Image Height="70" Name="pupImage" HorizontalAlignment="Left" Grid.Row="0" Grid.Column="3" Margin="275,0,-213,49"  Source="pup.png"/>
+        <Label Name="catLbl" Content="Cat" Margin="0,82,0,0" />
+        <Label Name="EleLbl" Content="Elephant" Margin="22,77,10,10" Grid.Column="1" />
+        <Label Name="panLbl" Content="Panther" Margin="138,77,-106,0" Grid.Column="1" />
+        <Label Name="pupLbl" Content="Puppy" Margin="291,82,-259,33" Grid.RowSpan="2" Grid.Column="1" />
+        <CheckBox x:Name="catCB" Content="" HorizontalAlignment="Left" Margin="31,10,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <CheckBox x:Name="elphantCB" Content="" HorizontalAlignment="Left" Margin="34,5,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.Column="1"/>
+        <CheckBox x:Name="pantherCB" Content="" HorizontalAlignment="Left" Margin="164,5,-101,0" Grid.Row="1" VerticalAlignment="Top" Grid.Column="1"/>
+        <CheckBox x:Name="puppyCB" Content="" HorizontalAlignment="Left" Margin="293,8,-228,0" Grid.Row="1" VerticalAlignment="Top" Grid.Column="1"/>
+        <Button x:Name="addToCartBtn" Content="Add to Cart" Click="addToCartBtn_Click" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="65,15,-54,-39" Grid.Row="3" VerticalAlignment="Top" Width="135"/>
     </Grid>
 </Page>
