@@ -40,7 +40,8 @@ namespace PetShop
                 if (nodes[i]["username"].InnerText.Equals(usernameLogTB.Text.Trim()) && nodes[i]["password"].InnerText.Equals(passwordLogTB.Text.Trim()))
                 {
                     found = true;
-                    shopperScreen ss = new shopperScreen();
+                    string uname =  nodes[i]["name"].InnerText;
+                    shopperScreen ss = new shopperScreen(uname);
                     ss.Show();
                 }
             }

@@ -20,3 +20,5 @@ C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\PetS
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\PetShop.exe
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\PetShop.pdb
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\PetShop.csprojResolveAssemblyReference.cache
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\reviewOrderPage.g.cs
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\reviewOrderPage.baml

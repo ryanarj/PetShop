@@ -61,6 +61,9 @@
     <Compile Include="registerPage.xaml.cs">
       <DependentUpon>registerPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="reviewOrderPage.xaml.cs">
+      <DependentUpon>reviewOrderPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="shopperScreen.xaml.cs">
       <DependentUpon>shopperScreen.xaml</DependentUpon>
     </Compile>
@@ -83,6 +86,10 @@
       <DependentUpon>loginScreen.xaml</DependentUpon>
     </Compile>
     <Page Include="registerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="reviewOrderPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

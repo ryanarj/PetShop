@@ -19,10 +19,11 @@ namespace PetShop
     /// </summary>
     public partial class shopperScreen : Window
     {
-        public shopperScreen()
+        public shopperScreen(string username)
         {
+            Dictionary<string, int> cOrder = new Dictionary<string, int>();
             InitializeComponent();
-            frame.NavigationService.Navigate(new ShoppingPage());
+            frame.NavigationService.Navigate(new ShoppingPage(username, cOrder));
         }
     }
 }
