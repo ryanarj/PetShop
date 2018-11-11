@@ -1,9 +1,9 @@
-C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\bin\Debug\PetShop.exe.config
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\bin\Debug\PetShop.exe
-C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\bin\Debug\PetShop.pdb
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\bin\Debug\PetShop.exe.config
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\loginPage.g.cs
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\loginScreen.g.cs
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\registerPage.g.cs
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\reviewOrderPage.g.cs
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\shopperScreen.g.cs
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\ShoppingPage.g.cs
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\App.g.cs
@@ -12,6 +12,7 @@ C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\PetS
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\loginPage.baml
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\loginScreen.baml
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\registerPage.baml
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\reviewOrderPage.baml
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\shopperScreen.baml
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\ShoppingPage.baml
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\PetShop.g.resources
@@ -20,5 +21,8 @@ C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\PetS
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\PetShop.exe
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\PetShop.pdb
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\PetShop.csprojResolveAssemblyReference.cache
-C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\reviewOrderPage.g.cs
-C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\reviewOrderPage.baml
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\bin\Debug\PetShop.pdb
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\Seller.g.cs
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\SellerPage.g.cs
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\Seller.baml
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\SellerPage.baml

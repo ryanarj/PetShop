@@ -37,12 +37,16 @@ namespace PetShop
             for (int i = 0; i < nodes.Count; i++)
             {
 
-                if (nodes[i]["username"].InnerText.Equals(usernameLogTB.Text.Trim()) && nodes[i]["password"].InnerText.Equals(passwordLogTB.Text.Trim()))
+                if (nodes[i]["username"].InnerText.Equals(usernameLogTB.Text.Trim()) && nodes[i]["password"].InnerText.Equals(passwordLogTB.Password.Trim()) && nodes[i]["shopper_seller"].InnerText.Equals("Shopper"))
                 {
                     found = true;
                     string uname =  nodes[i]["name"].InnerText;
                     shopperScreen ss = new shopperScreen(uname);
                     ss.Show();
+                } else if ((nodes[i]["username"].InnerText.Equals(usernameLogTB.Text.Trim()) && nodes[i]["password"].InnerText.Equals(passwordLogTB.Password.Trim()) && nodes[i]["shopper_seller"].InnerText.Equals("Seller"))){
+                    found = true;
+                    Seller s = new Seller();
+                    s.Show();
                 }
             }
 

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <Pet>
     <petName>Cat</petName>
@@ -8,7 +8,7 @@
   <Pet>
     <petName>Elephant</petName>
     <amount>1</amount>
-    <price>10.00</price>
+    <price>100.00</price>
   </Pet>
   <Pet>
     <petName>Panther</petName>

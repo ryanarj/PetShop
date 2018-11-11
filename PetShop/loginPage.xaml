@@ -7,17 +7,19 @@
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
       Title="loginPage">
-    <Grid Background="White" Margin="20">
+    <Grid Background="White" Margin="20,20,20,-75">
             <StackPanel>
                 <Label Content="Login" Foreground="DodgerBlue" FontSize="25" HorizontalAlignment="Center"/>
                 <Separator></Separator>
                 <Label Content="Username" />
                 <TextBox Name="usernameLogTB" Margin="10"/>
                 <Label Content="Password"/>
-                <TextBox Name="passwordLogTB" Margin="10"/>
+                <PasswordBox Name="passwordLogTB" Margin="10" />
                 <Button Name="loginBtn" Click="loginBtn_Click" Content="Login" Margin="60 10" />
                 <Button Name="registerBtn" Click="registerBtn_Click" Content="Register" Margin="60 10" />
             </StackPanel>
             <Frame Name="Main" Width="542" Height="423" Margin="-153,-82,-129,-81" />
-        </Grid>
+        <Label x:Name="label" Content="Register as a Shopper to shop " HorizontalAlignment="Left" Margin="20,280,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="Register as a Seller to sell " HorizontalAlignment="Left" Margin="20,311,0,0" VerticalAlignment="Top"/>
+    </Grid>
 </Page>

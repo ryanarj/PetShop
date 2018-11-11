@@ -6,10 +6,10 @@
       xmlns:local="clr-namespace:PetShop"
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
-      Title="reviewOrderPage">
+      Title="reviewOrderPage" Background="White" Height="500" Width="400">
 
     <Grid>
-        <ListBox x:Name="petLB" HorizontalAlignment="Left" Height="168" Margin="35,36,0,0" VerticalAlignment="Top" Width="225" RenderTransformOrigin="0.5,0.5">
+        <ListBox x:Name="petLB" HorizontalAlignment="Left" Height="243" Margin="60,60,0,0" VerticalAlignment="Top" Width="280" RenderTransformOrigin="0.5,0.5">
             <ListBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -19,8 +19,17 @@
                 </TransformGroup>
             </ListBox.RenderTransform>
         </ListBox>
-        <Button x:Name="cancelOrderBtn" Click="cancelOrderBtn_Click" Content="Cancel" HorizontalAlignment="Left" Margin="115,235,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="backBtn" Click="backBtn_Click" Content="Back" HorizontalAlignment="Left" Margin="115,260,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="cancelOrderBtn" Click="cancelOrderBtn_Click" Content="Cancel" HorizontalAlignment="Left" Margin="170,330,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="backBtn" Click="backBtn_Click" Content="Back" HorizontalAlignment="Left" Margin="170,375,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Page>

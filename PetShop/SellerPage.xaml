@@ -1,0 +1,25 @@
+﻿<Page x:Class="PetShop.SellerPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PetShop"
+      mc:Ignorable="d" d:DesignWidth="300"
+      Title="SellerPage" Background="White" Height="355" Width="400">
+
+    <Grid HorizontalAlignment="Left" Width="300">
+
+        <Button x:Name="addPet" Click="addPet_Click" Content="Add Pet" HorizontalAlignment="Left" Margin="45,245,0,0" VerticalAlignment="Top" Width="75" Height="45"/>
+        <Button x:Name="removePet" Click="removePet_Click" Content="Remove a pet" HorizontalAlignment="Left" Margin="281,245,-65,0" VerticalAlignment="Top" Width="84" Height="45"/>
+        <Label x:Name="label" Content="Select the animal and then Add one or delete one." HorizontalAlignment="Left" Margin="80,32,-56,0" VerticalAlignment="Top" Height="46"/>
+        <ComboBox x:Name="petCB" HorizontalAlignment="Left" Margin="140,83,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Name="cbiCat">Cat</ComboBoxItem>
+            <ComboBoxItem Name="cbiElephant">Elephant</ComboBoxItem>
+            <ComboBoxItem Name="cbiPanther">Panther</ComboBoxItem>
+            <ComboBoxItem Name="cbiPuppy">Puppy</ComboBoxItem>
+        </ComboBox>
+        <Label x:Name="label_Copy" Content="Update the price of the pet." HorizontalAlignment="Left" Margin="119,129,0,0" VerticalAlignment="Top" Height="46"/>
+        <Button x:Name="UpdatePrice" Click="UpdatePrice_Click" Content="Update Price" HorizontalAlignment="Left" Margin="160,245,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="newPriceTB" HorizontalAlignment="Left" Height="23" Margin="130,175,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Page>

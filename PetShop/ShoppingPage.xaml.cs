@@ -157,12 +157,59 @@ namespace PetShop
             {
                 total += c;
             }
-            menubarCartTotal.Content = " You have " + total + " in your cart"; 
+            menubarCartTotal.Content = " You have " + total + " pet in your cart";
+            MessageBox.Show(" You have " + total + " pet in your cart");
         }
 
         private void reviewOrderBtn_Click(object sender, RoutedEventArgs e)
         {
             this.NavigationService.Navigate(new reviewOrderPage(name, petD));
+        }
+
+        private void placeOrderBtn_Click(object sender, RoutedEventArgs e)
+        {
+            string path = parentFolder.FullName;
+            string fileName = path.Substring(0, path.Length - 3) + "Pets.xml";
+            menubarUsername.Content = "Hi, " + name;
+            string str = "";
+            double total = 0;
+            string price = "";
+            XmlDocument doc = new XmlDocument();
+            doc.Load(fileName);
+
+            XmlNodeList nodes = doc.GetElementsByTagName("Pet");
+            foreach (var item in petD)
+            {
+                if (item.Value != 0)
+                {
+                    
+                    var node = nodes.Cast<XmlNode>()
+                       .Where(n => n["petName"].InnerText == item.Key)
+                       .Select(x => x["price"].InnerText);
+                    price = string.Join("", node.ToArray());
+                    str += item.Key + " at " + price + Environment.NewLine;
+                    total += double.Parse(price);
+                    
+                }
+            }
+            int q = 0;
+            for (int i=0; i<nodes.Count; i++)
+            {
+
+                if (petD.ContainsKey(nodes[i]["petName"].InnerText) && petD[nodes[i]["petName"].InnerText] != 0) {
+                    q = int.Parse(nodes[i]["amount"].InnerText) - 1;
+                    nodes[i]["amount"].InnerText = q.ToString();
+                  }
+            }
+            doc.Save(fileName);
+            str += " The total is " + total;
+            MessageBox.Show(str);
+
+            petD["Cat"] = 0;
+            petD["Elephant"] = 0;
+            petD["Puppy"] = 0;
+            petD["Panther"] = 0;
+            SetupData();
         }
     }
 }

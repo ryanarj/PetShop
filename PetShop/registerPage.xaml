@@ -22,9 +22,9 @@
                 <ComboBoxItem Name="cbi2">Seller</ComboBoxItem>
             </ComboBox>
             <Label Content="Password"/>
-            <TextBox Name="passwordTB" Margin="10" Text="{Binding Pass, ValidatesOnNotifyDataErrors=True}" />
+            <PasswordBox Name="passwordTB" Margin="10" />
             <Label Content="Re-enter Password"/>
-            <TextBox Name="password2TB" Margin="10" Text="{Binding Pass, ValidatesOnNotifyDataErrors=True}" />
+            <PasswordBox Name="password2TB" Margin="10" />
             <Button Name="submitBtn" Click="submitBtn_Click" Content="Submit" Margin="60 10" />
             
         </StackPanel>

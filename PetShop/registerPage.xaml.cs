@@ -92,9 +92,9 @@ namespace PetShop
                 uid_node.InnerText = Math.Abs(uid).ToString();
 
 
-                if (passwordTB.Text.Trim().Equals(password2TB.Text.Trim()))
+                if (passwordTB.Password.Trim().Equals(password2TB.Password.Trim()))
                 {
-                    password.InnerText = password2TB.Text.Trim();
+                    password.InnerText = password2TB.Password.Trim();
 
                 }
                 else
@@ -102,7 +102,7 @@ namespace PetShop
                     MessageBox.Show("Passwords do not match!!");
                 }
 
-                if (string.IsNullOrEmpty(usernameTB.Text) && string.IsNullOrEmpty(passwordTB.Text) && string.IsNullOrEmpty(password2TB.Text) && string.IsNullOrEmpty(emailTb.Text) && string.IsNullOrEmpty(nameTB.Text) && string.IsNullOrEmpty(shopSellCbx.Text))
+                if (string.IsNullOrEmpty(usernameTB.Text) && string.IsNullOrEmpty(passwordTB.Password) && string.IsNullOrEmpty(password2TB.Password) && string.IsNullOrEmpty(emailTb.Text) && string.IsNullOrEmpty(nameTB.Text) && string.IsNullOrEmpty(shopSellCbx.Text))
                 {
                     MessageBox.Show("Every field must be filled in!");
                 }

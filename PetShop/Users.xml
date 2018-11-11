@@ -16,4 +16,12 @@
     <email>X@X.com</email>
     <shopper_seller>Seller</shopper_seller>
   </User>
+  <User>
+    <uid>1018463321</uid>
+    <username>Test</username>
+    <password>Test</password>
+    <name>Test1</name>
+    <email>Test!.com</email>
+    <shopper_seller>Shopper</shopper_seller>
+  </User>
 </root>

@@ -43,7 +43,7 @@
             <CheckBox x:Name="puppyCB" Content="" HorizontalAlignment="Left" Margin="293,8,-228,0" Grid.Row="1" VerticalAlignment="Top" Grid.Column="1"/>
             <Button x:Name="addToCartBtn" Content="Add to Cart" Click="addToCartBtn_Click" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="65,15,-54,-39" Grid.Row="3" VerticalAlignment="Top" Width="135"/>
             <Button x:Name="reviewOrderBtn" Content="Review Order" Click="reviewOrderBtn_Click" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="65,49,-52,-73" Grid.Row="3" VerticalAlignment="Top" Width="135"/>
-            <Button x:Name="placeOrderBtn" Content="Place order" Click="addToCartBtn_Click" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="65,83,-50,-107" Grid.Row="3" VerticalAlignment="Top" Width="135"/>
+            <Button x:Name="placeOrderBtn" Content="Place order" Click="placeOrderBtn_Click" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="65,83,-50,-107" Grid.Row="3" VerticalAlignment="Top" Width="135"/>
         </Grid>
     </DockPanel>
 </Page>
