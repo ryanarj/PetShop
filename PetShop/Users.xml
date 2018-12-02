@@ -24,4 +24,12 @@
     <email>Test!.com</email>
     <shopper_seller>Shopper</shopper_seller>
   </User>
+  <User>
+    <uid>1637217747</uid>
+    <username>Test111</username>
+    <password>Test</password>
+    <name>Test111</name>
+    <email>test@test.ccom</email>
+    <shopper_seller>Seller</shopper_seller>
+  </User>
 </root>

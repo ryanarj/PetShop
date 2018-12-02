@@ -2,22 +2,26 @@
 <root>
   <Pet>
     <petName>Cat</petName>
-    <amount>1</amount>
+    <petType>Feline</petType>
+    <amount>4</amount>
     <price>10.00</price>
   </Pet>
   <Pet>
-    <petName>Elephant</petName>
-    <amount>1</amount>
+    <petName>Wolf</petName>
+    <petType>Canine</petType>
+    <amount>0</amount>
     <price>100.00</price>
   </Pet>
   <Pet>
     <petName>Panther</petName>
-    <amount>1</amount>
+    <petType>Feline</petType>
+    <amount>4</amount>
     <price>10.00</price>
   </Pet>
   <Pet>
     <petName>Puppy</petName>
-    <amount>1</amount>
+    <petType>Canine</petType>
+    <amount>2</amount>
     <price>10.00</price>
   </Pet>
 </root>

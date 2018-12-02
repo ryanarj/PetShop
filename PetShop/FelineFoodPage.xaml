@@ -1,0 +1,38 @@
+﻿<Page x:Class="PetShop.FelineFoodPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PetShop"
+      mc:Ignorable="d"
+      Title="FelineFoodPage" Height="455" Width="370">
+
+    <DockPanel Margin="0,0,-35,-135">
+        <Menu DockPanel.Dock="Top">
+            <Label Name="menubarCartTotal" Content=""/>
+        </Menu>
+        <StackPanel></StackPanel>
+        <Grid Background="White" HorizontalAlignment="Left" Height="369" Margin="44,43,0,0" VerticalAlignment="Top" Width="251">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="56*"/>
+                <RowDefinition Height="9*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Image Height="70" HorizontalAlignment="Left" Grid.Row="0" Grid.Column="0" Margin="21,0,0,49"  Source="foodcat.png"/>
+            <Image Height="70" HorizontalAlignment="Left" Grid.Row="0" Grid.Column="1" Margin="9,0,0,49" Source="food1.png"/>
+            <Label Name="catFoodLbl" Content="Cat Food" Margin="21,77,126,5" Grid.ColumnSpan="2" />
+            <Label Name="panFoodLbl" Content="Panther Food" Margin="32,77,0,0" Grid.Column="1" />
+            <CheckBox x:Name="catFoodCB" Content="" HorizontalAlignment="Left" Margin="41,10,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+            <CheckBox x:Name="PanFoodCB" Content="" Margin="64,10,55,0" Grid.Row="1" VerticalAlignment="Top" Grid.Column="1" RenderTransformOrigin="-3.7,0.333"/>
+
+            <Button x:Name="addToCartCBtn" Content="Add to Cart" Click="addToCartCBtn_Click" HorizontalAlignment="Left" Height="29" Margin="41,85,0,0" Grid.Row="2" VerticalAlignment="Top" Width="135" Grid.ColumnSpan="2" RenderTransformOrigin="0.519,-2.345"/>
+            <Button x:Name="placeOrderCBtn" Content="Place order" Click="placeOrderCBtn_Click" HorizontalAlignment="Left" Height="29" Margin="41,119,0,0" Grid.Row="2" VerticalAlignment="Top" Width="135" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5"/>
+            <Button x:Name="backCBtn" Content="Back" Click="backCBtn_Click" HorizontalAlignment="Left" Height="29" Margin="41,161,0,0" Grid.Row="2" VerticalAlignment="Top" Width="135" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        </Grid>
+    </DockPanel>
+</Page>

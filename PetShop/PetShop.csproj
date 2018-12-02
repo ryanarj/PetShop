@@ -55,9 +55,22 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CanineFoodPage.xaml.cs">
+      <DependentUpon>CanineFoodPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CaninePage.xaml.cs">
+      <DependentUpon>CaninePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FelineFoodPage.xaml.cs">
+      <DependentUpon>FelineFoodPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FelinePage.xaml.cs">
+      <DependentUpon>FelinePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="loginPage.xaml.cs">
       <DependentUpon>loginPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pet.cs" />
     <Compile Include="registerPage.xaml.cs">
       <DependentUpon>registerPage.xaml</DependentUpon>
     </Compile>
@@ -76,6 +89,23 @@
     <Compile Include="ShoppingPage.xaml.cs">
       <DependentUpon>ShoppingPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Supplies.cs" />
+    <Page Include="CanineFoodPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CaninePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FelineFoodPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FelinePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="loginPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -156,6 +186,17 @@
     <Resource Include="Pets.xml">
       <SubType>Designer</SubType>
     </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Supplies.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="wolf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="food1.png" />
+    <Resource Include="foodcat.png" />
+    <Resource Include="foodpuppy.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

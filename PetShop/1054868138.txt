@@ -1,0 +1,12 @@
+CatFood
+at
+10.00
+
+PantherFood
+at
+10.00
+
+The
+total
+is
+20

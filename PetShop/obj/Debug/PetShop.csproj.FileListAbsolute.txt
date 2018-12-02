@@ -26,3 +26,11 @@ C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\Sell
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\SellerPage.g.cs
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\Seller.baml
 C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\SellerPage.baml
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\CaninePage.g.cs
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\FelinePage.g.cs
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\CaninePage.baml
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\FelinePage.baml
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\CanineFoodPage.g.cs
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\CanineFoodPage.baml
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\FelineFoodPage.g.cs
+C:\Users\KR\documents\visual studio 2015\Projects\PetShop\PetShop\obj\Debug\FelineFoodPage.baml

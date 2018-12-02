@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Supplies>
+    <petName>PuppyFood</petName>
+    <petType>Canine</petType>
+    <amount>24</amount>
+    <price>10.00</price>
+  </Supplies>
+  <Supplies>
+    <petName>WolfFood</petName>
+    <petType>Canine</petType>
+    <amount>11</amount>
+    <price>10.00</price>
+  </Supplies>
+  <Supplies>
+    <petName>PantherFood</petName>
+    <petType>Feline</petType>
+    <amount>12</amount>
+    <price>1234</price>
+  </Supplies>
+  <Supplies>
+    <petName>CatFood</petName>
+    <petType>Feline</petType>
+    <amount>9</amount>
+    <price>12</price>
+  </Supplies>
+</root>

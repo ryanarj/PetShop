@@ -1,0 +1,13 @@
+Wolf
+at
+100.00
+
+Puppy
+at
+10.00
+
+
+The
+total
+is
+110

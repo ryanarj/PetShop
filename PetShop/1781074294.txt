@@ -1,0 +1,8 @@
+PuppyFood
+at
+10.00
+
+The
+total
+is
+10

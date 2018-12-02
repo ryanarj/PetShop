@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("pets.xml")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("supplies.xml")]
 
 

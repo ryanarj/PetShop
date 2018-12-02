@@ -91,31 +91,30 @@ namespace PetShop
                 shop_sell.InnerText = shopSellCbx.Text.Trim();
                 uid_node.InnerText = Math.Abs(uid).ToString();
 
-
-                if (passwordTB.Password.Trim().Equals(password2TB.Password.Trim()))
-                {
-                    password.InnerText = password2TB.Password.Trim();
-
-                }
-                else
-                {
-                    MessageBox.Show("Passwords do not match!!");
-                }
-
                 if (string.IsNullOrEmpty(usernameTB.Text) && string.IsNullOrEmpty(passwordTB.Password) && string.IsNullOrEmpty(password2TB.Password) && string.IsNullOrEmpty(emailTb.Text) && string.IsNullOrEmpty(nameTB.Text) && string.IsNullOrEmpty(shopSellCbx.Text))
                 {
                     MessageBox.Show("Every field must be filled in!");
                 }
                 else
                 {
-                    user.AppendChild(uid_node); user.AppendChild(username); user.AppendChild(password); user.AppendChild(name); user.AppendChild(email); user.AppendChild(shop_sell);
-                    doc.DocumentElement.AppendChild(user);
-                    doc.Save(fileName);
-                    MessageBox.Show("New user has been added!!");
-                    this.NavigationService.Navigate(new loginPage());
+
+                    if (passwordTB.Password.Trim().Equals(password2TB.Password.Trim()))
+                    {
+                        password.InnerText = password2TB.Password.Trim();
+                        user.AppendChild(uid_node); user.AppendChild(username); user.AppendChild(password);
+                        user.AppendChild(name); user.AppendChild(email); user.AppendChild(shop_sell);
+                        doc.DocumentElement.AppendChild(user);
+                        doc.Save(fileName);
+                        MessageBox.Show("New user has been added!!");
+                        this.NavigationService.Navigate(new loginPage());
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Passwords do not match!!");
+                    }
                 }
             }
-
         }
     }
 }

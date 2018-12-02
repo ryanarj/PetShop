@@ -17,9 +17,11 @@ namespace PetShop
         Dictionary<string, int> currOrder = new Dictionary<string, int>();
         DirectoryInfo parentFolder;
         string username;
-        public reviewOrderPage(string user, Dictionary<string, int> petD)
+        string lastP;
+        public reviewOrderPage(string user, string lastPage, Dictionary<string, int> petD)
         {
             username = user;
+            lastP = lastPage;
             string expath = System.IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             parentFolder = Directory.GetParent(expath);
             currOrder = petD;
@@ -69,7 +71,13 @@ namespace PetShop
 
         private void backBtn_Click(object sender, System.Windows.RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new ShoppingPage(username, currOrder));
+            if (lastP.Equals("Feline")){
+                this.NavigationService.Navigate(new FelinePage(username, currOrder));
+            } else if (lastP.Equals("Canine"))
+            {
+                this.NavigationService.Navigate(new CaninePage(username, currOrder));
+            }
+                
         }
     }
 }
